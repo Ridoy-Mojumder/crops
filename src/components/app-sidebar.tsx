@@ -13,7 +13,6 @@ import {
     Plus,
     HelpCircle,
     Settings,
-    ChevronRight,
     ChevronDown,
 } from "lucide-react"
 
@@ -26,8 +25,6 @@ import {
     SidebarMenuButton,
     SidebarMenuItem,
     SidebarGroup,
-    SidebarGroupLabel,
-    SidebarGroupContent,
     SidebarSeparator,
 } from "@/components/ui/sidebar"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
