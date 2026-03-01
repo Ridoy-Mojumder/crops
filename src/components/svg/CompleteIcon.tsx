@@ -1,0 +1,35 @@
+import React from "react";
+
+export default function CompleteIcon(props: React.ComponentProps<"svg">) {
+    return (
+        <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            {...props}
+        >
+            <circle cx="10" cy="10" r="8" fill="#009862" />
+            <g clipPath="url(#clip0_45_2558)">
+                <path
+                    d="M5.875 10.75L8.5 13.375L14.5 7.375"
+                    stroke="white"
+                    strokeWidth="1.6"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                />
+            </g>
+            <defs>
+                <clipPath id="clip0_45_2558">
+                    <rect
+                        width="12"
+                        height="12"
+                        fill="white"
+                        transform="translate(4 4)"
+                    />
+                </clipPath>
+            </defs>
+        </svg>
+    );
+}
