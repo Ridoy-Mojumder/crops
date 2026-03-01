@@ -1,6 +1,5 @@
 "use client"
 
-import * as React from "react"
 import {
     Table,
     TableBody,
@@ -9,7 +8,6 @@ import {
     TableHeader,
     TableRow,
 } from "@/components/ui/table"
-import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Folder } from "lucide-react"
