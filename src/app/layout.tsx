@@ -1,16 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
-import { SidebarProvider, SidebarInset } from "@/components/ui/sidebar"
-import { AppSidebar } from "@/components/app-sidebar"
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -19,24 +12,20 @@ export const metadata: Metadata = {
   description: "Project management dashboard built with Shadcn UI.",
 };
 
+import LayoutWrapper from "@/components/partials/LayoutWrapper";
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${inter.variable} font-sans antialiased`}
+        suppressHydrationWarning
       >
-        <SidebarProvider>
-          <AppSidebar />
-          <SidebarInset>
-            <main className="flex min-h-screen w-full flex-col bg-slate-50/50">
-              {children}
-            </main>
-          </SidebarInset>
-        </SidebarProvider>
+        <LayoutWrapper>{children}</LayoutWrapper>
       </body>
     </html>
   );
