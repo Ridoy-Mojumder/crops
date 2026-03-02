@@ -9,8 +9,15 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-inter);
   --font-inter: var(--font-inter);
+  --color-gray-25: var(--gray-25);
   --color-gray-50: var(--gray-50);
+  --color-gray-100: var(--gray-100);
+  --color-gray-200: var(--gray-200);
+  --color-gray-300: var(--gray-300);
+  --color-gray-400: var(--gray-400);
+  --color-gray-500: var(--gray-500);
   --color-gray-600: var(--gray-600);
+  --color-gray-700: var(--gray-700);
   --color-gray-800: var(--gray-800);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
@@ -51,8 +58,15 @@
 }
 
 :root {
+  --gray-25: #F9F9FB;
   --gray-50: #F1F1F4;
+  --gray-100: #E9EAEE;
+  --gray-200: #D0D5DC;
+  --gray-300: #A9B0BD;
+  --gray-400: #8E96A4;
+  --gray-500: #748094;
   --gray-600: #4E5564;
+  --gray-700: #3C424E;
   --gray-800: #2A303B;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
