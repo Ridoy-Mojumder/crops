@@ -10,6 +10,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Basecom - Projects",
   description: "Project management dashboard built with Shadcn UI.",
+  icons: {
+    icon: "/Logo/logo.png",
+  },
 };
 
 import LayoutWrapper from "@/components/partials/LayoutWrapper";
