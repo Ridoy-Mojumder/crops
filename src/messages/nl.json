@@ -1,0 +1,38 @@
+{
+  "Common": {
+    "dashboard": "Dashboard",
+    "projects": "Projecten",
+    "tasks": "Taken",
+    "clients": "Klanten",
+    "team": "Team",
+    "resources": "Middelen",
+    "timesheet": "Urenregistratie",
+    "finance": "Financiën",
+    "gettingStarted": "Aan de slag",
+    "adminSettings": "Admin-instellingen",
+    "create": "Maken",
+    "search": "Zoeken",
+    "filters": "Filters",
+    "sort": "Sorteren"
+  },
+  "Projects": {
+    "title": "Projecten",
+    "createProject": "Project maken",
+    "columns": {
+      "name": "Naam",
+      "status": "Status",
+      "client": "Klant",
+      "assignee": "Toegewezene",
+      "taskProgress": "Taakvoortgang",
+      "budgetLeft": "Resterend budget",
+      "dueDate": "Vervaldatum"
+    },
+    "status": {
+      "inProgress": "In uitvoering",
+      "postProduction": "Postproductie",
+      "pending": "In afwachting",
+      "planning": "Planning",
+      "completed": "Voltooid"
+    }
+  }
+}

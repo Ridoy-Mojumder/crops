@@ -1,0 +1,38 @@
+{
+  "Common": {
+    "dashboard": "Dashboard",
+    "projects": "Projects",
+    "tasks": "Tasks",
+    "clients": "Clients",
+    "team": "Team",
+    "resources": "Resources",
+    "timesheet": "Timesheet",
+    "finance": "Finance",
+    "gettingStarted": "Getting Started",
+    "adminSettings": "Admin Settings",
+    "create": "Create",
+    "search": "Search",
+    "filters": "Filters",
+    "sort": "Sort"
+  },
+  "Projects": {
+    "title": "Projects",
+    "createProject": "Create project",
+    "columns": {
+      "name": "Name",
+      "status": "Status",
+      "client": "Client",
+      "assignee": "Assignee",
+      "taskProgress": "Task Progress",
+      "budgetLeft": "Budget Left",
+      "dueDate": "Due Date"
+    },
+    "status": {
+      "inProgress": "In-progress",
+      "postProduction": "Post Production",
+      "pending": "Pending",
+      "planning": "Planning",
+      "completed": "Completed"
+    }
+  }
+}

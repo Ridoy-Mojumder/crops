@@ -1,0 +1,38 @@
+{
+  "Common": {
+    "dashboard": "Dashboard",
+    "projects": "Projekte",
+    "tasks": "Aufgaben",
+    "clients": "Kunden",
+    "team": "Team",
+    "resources": "Ressourcen",
+    "timesheet": "Zeiterfassung",
+    "finance": "Finanzen",
+    "gettingStarted": "Erste Schritte",
+    "adminSettings": "Admin-Einstellungen",
+    "create": "Erstellen",
+    "search": "Suchen",
+    "filters": "Filter",
+    "sort": "Sortieren"
+  },
+  "Projects": {
+    "title": "Projekte",
+    "createProject": "Projekt erstellen",
+    "columns": {
+      "name": "Name",
+      "status": "Status",
+      "client": "Kunde",
+      "assignee": "Zuständiger",
+      "taskProgress": "Aufgabenfortschritt",
+      "budgetLeft": "Restbudget",
+      "dueDate": "Fälligkeitsdatum"
+    },
+    "status": {
+      "inProgress": "In Bearbeitung",
+      "postProduction": "Postproduktion",
+      "pending": "Ausstehend",
+      "planning": "Planung",
+      "completed": "Abgeschlossen"
+    }
+  }
+}
